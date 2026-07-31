@@ -4,6 +4,10 @@ import seaborn as sns
 from sklearn.metrics import confusion_matrix, f1_score
 
 
+##############################
+# CODIGO PARA EVALUAR MODELOS
+#################
+
 def matriz_confusion(y_val, y_pred,etiquetas_clases=None,dosclases = True):
 
     if etiquetas_clases is None:
